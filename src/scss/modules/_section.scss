@@ -1,0 +1,93 @@
+button{
+    border-radius: 40%;
+    border: solid white;
+    height: 50px;
+}
+
+p{
+    color: rgb(153, 153, 153);
+}
+
+// 1er SECTION
+.S1{
+    background-color: rgb(243, 101, 50);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 430px;
+}
+
+// 2e SECTION
+.S2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    height: 430px;
+}
+
+.S2>div{
+    display: flex;
+    text-align: center;
+}
+
+.S2>div>ul>li{
+    list-style: none;
+    
+}
+
+// 3e SECTION
+.S3>div{
+    display: flex;
+}
+
+.S3>div>img{
+    width: 409px;
+}
+
+// 4e SECTION
+.S4{
+    background-color: rgb(58, 58, 58);
+    color: white;
+    height: 290px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+// 5e SECTION
+.S5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;    
+}
+
+.S5>div>div{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.S5>div>button{
+    border-radius: 5%;
+    box-sizing: border-box;
+    background-color: orangered;
+    border: solid orangered;
+    color: white;
+    opacity: 0.5;
+    width: 500px;
+    height: 70px;
+}
+
+.S5>div:last-of-type{
+    margin-top: 5%;
+    
+}

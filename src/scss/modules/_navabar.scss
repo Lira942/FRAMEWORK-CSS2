@@ -1,0 +1,20 @@
+nav{
+    color: rgb(168, 168, 168);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    height: 12%;
+    // width: 100%;
+}
+
+nav>ul{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: white;
+}
+
+nav>ul:last-of-type>li:last-of-type{
+    color: orangered;
+}
